@@ -19,10 +19,15 @@ function Input() {
       {/* Form Container */}
       <Form/>
       <div className="absolute left-0 top-1/2 transform -translate-y-3/4 translate-x-1/2 z-40 p-4 text-white">
-        <div>★★★★★</div>
-        <div>ग्राहकों की समीक्षाओं में 5 सितारे</div>
+      <div>
+        <p>★★★★★</p>
+        <p className="text-xm">ग्राहकों की समीक्षाओं में 5 सितारे</p>
+       </div> 
+        <div>
         <h1 className="text-3xl">आपके कानूनी अधिकारों की सुरक्षा,</h1>
         <h1 className="text-3xl"> हमारे अनुभवी वकीलों के साथ।</h1>
+        </div>
+        <p className="text-xm">आपके कानूनी समाधान के लिए कुशल वकीलों और सहज संवाद का लाभ उठाएं</p>
       </div>
     </div>
   </>
