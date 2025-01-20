@@ -2,8 +2,7 @@ import React from "react";
 import logo from "../data/tax_img.avif"
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between p-4 shadow-md min-h-52 sticky top-0 z-20 bg-white">
- 
+    <nav class="flex items-center justify-between p-4 shadow-md min-h-52 sticky top-0 z-20 bg-white w-full">
 
       <div className="flex items-center space-x-2">
         <img
