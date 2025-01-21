@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../data/profile_pic.jpeg";
-function Footer() {
+function Last() {
   return (
     <div className="h-[75vh] bg-blue-700 flex justify-center items-center">
       <div className="w-[90vh] h-[60vh] text-white  flex flex-col items-center justify-center gap-y-2">
@@ -27,4 +27,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Last;
