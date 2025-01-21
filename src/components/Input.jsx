@@ -28,11 +28,11 @@ function Input() {
             <h1 className="text-3xl">आपके कानूनी अधिकारों की सुरक्षा,</h1>
             <h1 className="text-3xl"> हमारे अनुभवी वकीलों के साथ।</h1>
           </div>
-          <p className="text-xm">
+          <p className="text-xm drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
             आपके कानूनी समाधान के लिए कुशल वकीलों और सहज संवाद का लाभ उठाएं
           </p>
           
-          <div className="transform translate-y-60 flex justify-center items-center w-[45vh] h-10 bg-red-400 rounded-full p-5">
+          <div className="transform translate-y-60 flex justify-center items-center w-[45vh] h-20 rounded-full p-5 border-4 border-red-500 shadow-lg bg-pink-300 bg-opacity-70">
   <a 
     href="https://in.images.search.yahoo.com/search/images;_ylt=AwrKGQcxc49nOQIA4Vm7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=insta+logo&fr2=piv-web&type=E210IN885G91852&fr=mcafee#id=35&iurl=https%3A%2F%2Fwww.pngfind.com%2Fpngs%2Fm%2F7-70930_instagram-2016-logo-png-transparent-logo-instagram-png.png&action=click" 
     className="flex flex-row gap-x-1"
