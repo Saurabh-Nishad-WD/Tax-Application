@@ -89,6 +89,20 @@ function Info() {
         </div>
           <p>हमारी विशेषज्ञ कानूनी सेवाएँ आपके सभी कानूनी मुद्दों को प्रभावी ढंग से हल करने में आपकी मदद करेंगी।</p>
       </div>
+      <div>
+      <div className="pl-[10%]">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.163884996897!2d82.07974147487361!3d26.288786686625908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a7c86d691219f%3A0x99a3eb1e7c07f78f!2sKamla%20Nehru%20Institute%20of%20Technology%2C%20Sultanpur%20(U.P.)!5e0!3m2!1sen!2sin!4v1737448249218!5m2!1sen!2sin"
+    width="600"
+    height="450"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
+
+      </div>
     </>
   );
 }
