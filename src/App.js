@@ -24,6 +24,7 @@ function App() {
             <Route path="/Vehicle" element={<Vehicle />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/-family-law" element={<Family />} />
+            <Route path="/contact" element={<Home />} />
           </Routes>
         </div>
       </Router>
