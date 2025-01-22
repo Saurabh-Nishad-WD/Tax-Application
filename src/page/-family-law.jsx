@@ -7,20 +7,18 @@ function Family() {
     <div>
       <div className="h-[45vh]  text-center flex flex-col items-center">
         <h1 className="text-6xl font-bold text-black py-5">
-          विशेषज्ञ कानूनी सेवाएँ
+        Compassionate Family Law
         </h1>
         <p className="w-[100vh] text-gray-800 text-xl ">
-          Compassionate support for Vehicle cases, including property disputes,
-          family law, and personal injury claims.
+        Dedicated support for divorce, custody, and adoption. Your family's future is our priority.
         </p>
       </div>
-      <div className=" text-center flex flex-col items-center bg-gray-300">
+      <div className=" text-center flex flex-col items-center bg-gray-500">
         <h1 className="text-6xl font-bold text-black py-5">
-          Corporate Legal Services
+        Family Law Services
         </h1>
-        <p className="w-[100vh] text-gray-700 text-xl pb-[10vh]">
-          Expert legal support for business formation, compliance, and
-          intellectual property protection tailored for your needs.
+        <p className="w-[100vh] text-gray-800 text-xl pb-[10vh]">
+        Expert legal support for divorce, custody, support, and adoption matters tailored for families.
         </p>
         <div className="flex flex-row w-[85%]  justify-between text-start">
           <div className="w-[110vh] p-3 m-3 rounded-tl-[10%] rounded-br-[10%] bg-gray-400">
