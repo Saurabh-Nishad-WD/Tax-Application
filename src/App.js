@@ -7,6 +7,7 @@ import Home from "./page/Home";
 import Criminal_case from "./page/Criminal_case";
 import Civil from "./page/Civil";
 import Vehicle from "./page/Vehicle";
+import Admin from "./page/Admin";
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
             <Route path="/criminal" element={<Criminal_case />} />
             <Route path="/Civil" element={<Civil />} />
             <Route path="/Vehicle" element={<Vehicle />} />
+            <Route path="/admin" element={<Admin />} />
           </Routes>
         </div>
       </Router>
