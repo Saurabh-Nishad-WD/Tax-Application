@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Corporate from "./page/Corporate_Legal_Services";
 import Home from "./page/Home";
 import Criminal_case from "./page/Criminal_case";
+import Civil from "./page/Civil";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/corporate" element={<Corporate />} />
             <Route path="/criminal" element={<Criminal_case />} />
+            <Route path="/Civil" element={<Civil />} />
           </Routes>
         </div>
       </Router>

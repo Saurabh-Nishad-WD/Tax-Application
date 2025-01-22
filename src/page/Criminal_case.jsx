@@ -1,6 +1,5 @@
 import React from "react";
 import img001 from "../data/lawyer.avif";
-
 function Criminal_case() {
   return (
     <div>
@@ -106,7 +105,6 @@ function Criminal_case() {
               <p>Jhon Wick</p>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

@@ -1,0 +1,88 @@
+import React from "react";
+const ContactForm = () => {
+  return (
+    <div className="container mx-auto py-10 px-4 md:px-20">
+      <div className="grid md:grid-cols-2 gap-8">
+        {/* Left Section */}
+        <div>
+          <h1 className="text-4xl font-bold mb-4">Contact Your Legal Advocate</h1>
+          <p className="text-gray-600 mb-6">
+            Reach out to our expert team for assistance with writs, appeals, and revisions. 
+            We’re here to help you navigate your legal journey.
+          </p>
+          <div className="space-y-4">
+            <div>
+              <p className="font-semibold">Contact</p>
+              <p>+91 9910508972</p>
+            </div>
+            <div>
+              <p className="font-semibold">Support</p>
+              <p>lawyer@thelexlaw.com</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Right Section - Form */}
+        <div className="bg-white shadow-md rounded-lg p-6">
+          <form className="space-y-4">
+            <div>
+              <label
+                htmlFor="firstName"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Your First Name
+              </label>
+              <input
+                type="text"
+                id="firstName"
+                placeholder="Enter your first name"
+                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Your Email Address<span className="text-red-500">*</span>
+              </label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email address"
+                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                required
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Your Message<span className="text-red-500">*</span>
+              </label>
+              <textarea
+                id="message"
+                placeholder="Enter your message here"
+                rows="4"
+                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                required
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            >
+              Submit Your Request
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ContactForm;
