@@ -8,6 +8,7 @@ import Criminal_case from "./page/Criminal_case";
 import Civil from "./page/Civil";
 import Vehicle from "./page/Vehicle";
 import Admin from "./page/Admin";
+import Family from "./page/-family-law";
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
             <Route path="/Civil" element={<Civil />} />
             <Route path="/Vehicle" element={<Vehicle />} />
             <Route path="/admin" element={<Admin />} />
+            <Route path="/-family-law" element={<Family />} />
           </Routes>
         </div>
       </Router>
