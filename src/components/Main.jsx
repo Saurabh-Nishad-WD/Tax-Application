@@ -24,47 +24,47 @@ function Main() {
         <div className="flex flex-wrap w-[90%] gap-x-[15vh] justify-center items-center">
           <div className=" w-[40vh] h-[20vh] ">
             <button>
-              <Button text="आपराधिक मामले" className="border-[3px] border-gray-800" />
+              <Button text="आपराधिक मामले" className="border-[3px] border-gray-800 w-[30vh]" />
             </button>
           </div>
           <div className="w-[40vh] h-[20vh]">
             <button>
-              <Button text={"दिवानी मामले"}  className="border-[3px] border-gray-800"/>
+              <Button text={"दिवानी मामले"}  className="border-[3px] border-gray-800 w-[30vh]"/>
             </button>
           </div>
           <div className="w-[40vh] h-[20vh]">
             <button>
-              <Button text={"रिट (Writ)"}  className="border-[3px] border-gray-800"/>
+              <Button text={"रिट (Writ)"}  className="border-[3px] border-gray-800 w-[30vh]"/>
             </button>
           </div>
           <div className="w-[40vh] h-[20vh]">
             <button>
-              <Button text={"प्रशासनिक सेवा"}  className="border-[3px] border-gray-800"/>
+              <Button text={"प्रशासनिक सेवा"}  className="border-[3px] border-gray-800 w-[30vh]"/>
             </button>
           </div>
           <div className="w-[40vh] h-[20vh]">
             <button>
-              <Button text={"पारिवारिक सेवाएं"}  className="border-[3px] border-gray-800"/>
+              <Button text={"पारिवारिक सेवाएं"}  className="border-[3px] border-gray-800 w-[30vh]"/>
             </button>
           </div>
           <div className="w-[40vh] h-[20vh]">
             <button>
-              <Button text={"अपील (Appeal)"}/>
+              <Button text={"अपील (Appeal)" } className="border-[3px] border-gray-800 w-[30vh]"/>
             </button>
           </div>
           <div className="w-[40vh] h-[20vh]">
             <button>
-              <Button text={"वाहन सेवाएं"}  className="border-[3px] border-gray-800"/>
+              <Button text={"वाहन सेवाएं"}  className="border-[3px] border-gray-800 w-[30vh]"/>
             </button>
           </div>
           <div className="w-[40vh] h-[20vh]">
             <button>
-              <Button text={"Corporates Services"}  className="border-[3px] border-gray-800"/>
+              <Button text={"Corporates Services"}  className="border-[3px] border-gray-800 w-[30vh]"/>
             </button>
           </div>
           <div className="w-[40vh] h-[20vh]">
             <button>
-              <Button text={"संशोधन (Revisions)"}  className="border-[3px] border-gray-800"/>
+              <Button text={"संशोधन (Revisions)"}  className="border-[3px] border-gray-800 w-[30vh]"/>
             </button>
           </div>
         </div>
