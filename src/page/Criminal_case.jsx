@@ -68,14 +68,14 @@ function Criminal_case() {
           <div className="h-[40vh] w-[90vh] bg-gray-400  border-2 border-black p-2 m-2 rounded-[10%]">
             <div className="text-xl">★★★★★</div>
             <div>
-              <p className=" text-center">
+              <p className="">
                 TLC ने शानदार कानूनी सेवाएं दीं। उनके वकील की लिस्ट और संवाद
                 प्रणाली से सब कुछ बहुत आसान हो गया। अगर आपको कानूनी मदद चाहिए,
                 तो मैं इनकी पूरी तरह से अनुशंसा करता हूँ
               </p>
             </div>
-            <div className="pt-10 flex flex-col justify-center items-center">
-              <div className="h-16 w-16 rounded-full flex justify-center items-center ">
+            <div className="pt-10 flex flex-col justify-center">
+              <div className="h-16 w-16 rounded-full flex justify-center  ">
                 <img
                   src={img001}
                   alt="profile pic error"

@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../utils/Button";
 
 function Info() {
   return (
@@ -88,6 +89,18 @@ function Info() {
           </span>
         </div>
           <p>हमारी विशेषज्ञ कानूनी सेवाएँ आपके सभी कानूनी मुद्दों को प्रभावी ढंग से हल करने में आपकी मदद करेंगी।</p>
+      </div>
+      <div className="flex flex-row justify-start  gap-x-[10vh] items-center">
+      <div className=" flex justify-center items-center w-[40vh] h-[20vh] -translate-y-1/2">
+            <button>
+              <Button text="whsp"  dest=" https://wa.me/9120633022" className="border-[3px]  border-gray-800 w-[30vh] h-12 bg-green-600 rounded-[8px] hover:bg-green-900"/>
+            </button>
+          </div>
+      <div className=" flex justify-center items-center w-[40vh] h-[20vh] -translate-y-1/2">
+            <button>
+              <Button text="call now!"  dest="tel:9120633022" className="border-[3px]  border-gray-800 w-[30vh] h-12 bg-blue-600 rounded-[8px] hover:bg-blue-900"/>
+            </button>
+          </div>
       </div>
       <div>
       <div className="pl-[10%]">

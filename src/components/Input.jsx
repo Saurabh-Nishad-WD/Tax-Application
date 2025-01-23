@@ -50,8 +50,8 @@ function Input() {
           </div>
           <div className="transform  flex justify-center items-center w-[45vh] h-20 rounded-full p-5 border-4 border-red-500 shadow-lg bg-pink-300 bg-opacity-70">
   <a 
-    href="https://in.images.search.yahoo.com/search/images;_ylt=AwrKGQcxc49nOQIA4Vm7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=insta+logo&fr2=piv-web&type=E210IN885G91852&fr=mcafee#id=35&iurl=https%3A%2F%2Fwww.pngfind.com%2Fpngs%2Fm%2F7-70930_instagram-2016-logo-png-transparent-logo-instagram-png.png&action=click" 
-    className="flex flex-row gap-x-1"
+    href="https://www.instagram.com/direct/t/17842930583948521/?__pwa=1" 
+    className="flex flex-row gap-x-1" target="_blank"
   >
     <span className="text-xl text-white font-bold flex justify-center items-center">हमें इंस्टाग्राम पर फॉलो करें!</span>
     <img src={insta} alt="insta err" className="rounded-full h-10 w-10" />
