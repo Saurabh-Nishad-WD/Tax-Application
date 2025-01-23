@@ -9,7 +9,6 @@ function Home() {
 
   return (
     <div>
-    <button className='bg-red-500'>put data</button>
             <Input />
             <Main />
             <Main2 />
