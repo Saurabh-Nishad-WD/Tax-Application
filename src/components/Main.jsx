@@ -12,7 +12,7 @@ function Main() {
     style={{ backgroundImage: `url(${judge})`, opacity: 0.7 }}
   ></div>   
   <p className="relative text-5xl text-red font-bold">हमारी सेवाएं और समाधान</p>
-        <p className="relative text-center">
+        <p className="relative text-center font-bold">
           हमारे समर्पित वकील अपने ग्राहकों की जरूरतों को पूरा करने के लिए व्यापक
           सेवाओं की पेशकश करते हैं। आपराधिक मामलों के लिए रक्षा सेवाओं से लेकर
           पारिवारिक सेवाओं जैसे तलाक और बाल हिरासत मामलों तक, हम विशेषज्ञ कानूनी

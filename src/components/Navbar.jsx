@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../data/tax_img.avif"
+import indian_flag from "../data/indian_flag.jpeg"
 const Navbar = () => {
   return (
     <nav class="flex items-center justify-between p-4 shadow-md min-h-52 sticky top-0 z-50 bg-white w-full">
@@ -36,9 +37,6 @@ const Navbar = () => {
         <a href="/others" className="hover:underline">
           अन्य सेवाएँ(Others)
         </a>
-        <a href="/blog" className="hover:underline">
-          Blog
-        </a>
         <a href="/contact" className="hover:underline">
           Contact
         </a>
@@ -48,9 +46,9 @@ const Navbar = () => {
       <div className="flex items-center space-x-4">
         <div className="flex items-center space-x-1">
           <img
-            src="/india-flag.png" // Replace with the Indian flag icon path
+            src={indian_flag}// Replace with the Indian flag icon path
             alt="India Flag"
-            className="h-5 w-5"
+            className="h-5 w-5 rounded-full"
           />
           <select className="text-sm border border-gray-300 rounded-md p-1">
             <option>EN</option>
