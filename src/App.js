@@ -9,6 +9,7 @@ import Civil from "./page/Civil";
 import Vehicle from "./page/Vehicle";
 import Admin from "./page/Admin";
 import Family from "./page/-family-law";
+import Others from "./page/Others";
 
 
 
@@ -29,6 +30,7 @@ function App() {
             <Route path="/admin" element={<Admin />} />
             <Route path="/-family-law" element={<Family />} />
             <Route path="/contact" element={<Home />} />
+            <Route path="/others" element={<Others />} />
           </Routes>
         </div>
       </Router>
