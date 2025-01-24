@@ -1,30 +1,29 @@
-import React from 'react';
+import React from 'react'
 import { useState } from 'react';
-import { useFirebase } from '../context/Firebase';
-
+import {useFirebase} from "../context/Firebase";
 function Form() {
   const firebase = useFirebase();
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [mob, setMob] = useState('');
-  const [queary, setQueary] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [mob, setMob] = useState("");
+  const [queary, setQueary] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault(); // Prevent form from reloading the page
     firebase
       .putData(`users/${name}`, { name, email, mob, queary })
       .then(() => {
-        alert('Data saved successfully!');
+        alert("Data saved successfully!");
       })
       .catch((error) => {
-        alert('Error saving data: ' + error.message);
+        alert("Error saving data: " + error.message);
       });
   };
 
   return (
     <>
-      <div className="container mx-auto min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
-        <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
+      <div className="relative z-10 bg-cover bg-center min-h-screen flex items-center justify-end pr-32">
+        <div className="bg-white bg-opacity-80 p-8 rounded-lg shadow-lg max-w-md w-full">
           <form className="space-y-6" onSubmit={handleSubmit}>
             {/* Name Field */}
             <div>
@@ -89,6 +88,7 @@ function Form() {
               <button
                 type="submit"
                 className="w-full bg-blue-600 text-white font-semibold py-2 rounded-md hover:bg-blue-700 focus:ring-2 focus:ring-blue-400 focus:outline-none"
+                onClick={handleSubmit}
               >
                 अपने केस के बारे में पूछें
               </button>
@@ -101,3 +101,5 @@ function Form() {
 }
 
 export default Form;
+
+

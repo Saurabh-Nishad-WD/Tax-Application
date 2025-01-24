@@ -19,23 +19,23 @@ const ContactForm = () => {
           });
       };
   return (
-    <div className="container mx-auto py-10 px-4 sm:px-6 lg:px-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="container mx-auto py-10 px-4 md:px-20">
+      <div className="grid md:grid-cols-2 gap-8">
         {/* Left Section */}
         <div>
-          <h1 className="text-3xl sm:text-4xl font-bold mb-4">Contact Your Legal Advocate</h1>
-          <p className="text-gray-600 mb-6 text-base sm:text-lg">
+          <h1 className="text-4xl font-bold mb-4">Contact Your Legal Advocate</h1>
+          <p className="text-gray-600 mb-6">
             Reach out to our expert team for assistance with writs, appeals, and revisions. 
             We’re here to help you navigate your legal journey.
           </p>
           <div className="space-y-4">
             <div>
               <p className="font-semibold">Contact</p>
-              <p className="text-sm sm:text-base">+91 9910508972</p>
+              <p>+91 9910508972</p>
             </div>
             <div>
               <p className="font-semibold">Support</p>
-              <p className="text-sm sm:text-base">lawyer@thelexlaw.com</p>
+              <p>lawyer@thelexlaw.com</p>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ const ContactForm = () => {
                 type="text"
                 id="firstName"
                 placeholder="Enter your first name"
-                className="mt-1 block w-full px-4 py-2 text-sm sm:text-base border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
               />
             </div>
 
@@ -71,7 +71,7 @@ const ContactForm = () => {
                 type="email"
                 id="email"
                 placeholder="Enter your email address"
-                className="mt-1 block w-full px-4 py-2 text-sm sm:text-base border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               />
             </div>
@@ -88,14 +88,14 @@ const ContactForm = () => {
                 id="message"
                 placeholder="Enter your message here"
                 rows="4"
-                className="mt-1 block w-full px-4 py-2 text-sm sm:text-base border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 required
               ></textarea>
             </div>
 
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-2 text-sm sm:text-base rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
               onClick={handleSubmit}
             >
               Submit Your Request
