@@ -29,7 +29,7 @@ function Others() {
             </p>
             <button
               type="submit"
-              className="w-60%  bg-blue-600 text-white py-2 sm:mt-[4%]  rounded-2xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              className="w-60%  bg-blue-600 text-white py-2 sm:mt-[4%] rounded-lg p-1 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             >
               तत्काल सम्पर्क करें
             </button>
@@ -43,7 +43,7 @@ function Others() {
             </p>
             <button
               type="submit"
-              className="w-60%  bg-blue-600 text-white py-2  sm:mt-[4%] rounded-2xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              className="w-60%  bg-blue-600 text-white py-2  sm:mt-[4%] rounded-lg p-1 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             >
               तत्काल सम्पर्क करें
             </button>
@@ -57,12 +57,12 @@ function Others() {
             </p>
             <button
               type="submit"
-              className="w-60%  bg-blue-600 text-white py-2 sm:mt-[4%]  rounded-2xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              className="w-60%  bg-blue-600 text-white py-2 sm:mt-[4%] rounded-lg p-1  hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             >
               तत्काल सम्पर्क करें
             </button>
           </div>
-        
+             
       </div>
 
 

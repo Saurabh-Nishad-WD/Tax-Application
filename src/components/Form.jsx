@@ -88,6 +88,7 @@ function Form() {
               <button
                 type="submit"
                 className="w-full bg-blue-600 text-white font-semibold py-2 rounded-md hover:bg-blue-700 focus:ring-2 focus:ring-blue-400 focus:outline-none"
+                onClick={handleSubmit}
               >
                 अपने केस के बारे में पूछें
               </button>

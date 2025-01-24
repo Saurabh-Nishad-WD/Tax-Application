@@ -1,5 +1,23 @@
 import React from "react";
+import { useState } from 'react';
+import {useFirebase} from "../context/Firebase";
 const ContactForm = () => {
+      const firebase = useFirebase();
+      const [name, setName] = useState("");
+      const [email, setEmail] = useState("");
+      const [queary, setQueary] = useState("");
+    
+      const handleSubmit = (event) => {
+        event.preventDefault(); // Prevent form from reloading the page
+        firebase
+          .putData(`query/${name}`, { name, email, queary })
+          .then(() => {
+            alert("Data saved successfully!");
+          })
+          .catch((error) => {
+            alert("Error saving data: " + error.message);
+          });
+      };
   return (
     <div className="container mx-auto py-10 px-4 md:px-20">
       <div className="grid md:grid-cols-2 gap-8">
@@ -33,6 +51,7 @@ const ContactForm = () => {
                 Your First Name
               </label>
               <input
+              onChange={(e) => setName(e.target.value)}
                 type="text"
                 id="firstName"
                 placeholder="Enter your first name"
@@ -48,6 +67,7 @@ const ContactForm = () => {
                 Your Email Address<span className="text-red-500">*</span>
               </label>
               <input
+              onChange={(e) => setEmail(e.target.value)}
                 type="email"
                 id="email"
                 placeholder="Enter your email address"
@@ -64,6 +84,7 @@ const ContactForm = () => {
                 Your Message<span className="text-red-500">*</span>
               </label>
               <textarea
+              onChange={(e) => setQueary(e.target.value)}
                 id="message"
                 placeholder="Enter your message here"
                 rows="4"
@@ -75,6 +96,7 @@ const ContactForm = () => {
             <button
               type="submit"
               className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              onClick={handleSubmit}
             >
               Submit Your Request
             </button>

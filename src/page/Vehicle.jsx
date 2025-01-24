@@ -1,7 +1,6 @@
 import React from "react";
 import img001 from "../data/lawyer.avif";
 import Contact from "../components/Contact";
-import Last from "../components/Last";
 function Vehicle() {
   return (
     <div>
